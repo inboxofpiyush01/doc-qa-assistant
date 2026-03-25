@@ -1,0 +1,14 @@
+# --- Frontend & PDF ---
+streamlit
+pypdf
+
+# --- LangChain (Letting pip resolve the best 0.3.x match) ---
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-huggingface
+langchain-text-splitters
+
+# --- Vector Store & AI ---
+faiss-cpu
+sentence-transformers
+huggingface_hub
